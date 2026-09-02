@@ -24,10 +24,10 @@
     "build-bundle": "tsc && vite build --mode library && npx tailwind -c ./tailwind.config.cjs -i ./src/index.css -o lib/style.css"
   },
   "dependencies": {
-    "@tiptap/extension-link": "^2.10.4",
-    "@tiptap/extension-placeholder": "^2.0.0-beta.53",
-    "@tiptap/starter-kit": "^2.0.0-beta.191",
-    "@tiptap/vue-3": "^2.0.0-beta.96",
+    "@tiptap/extension-link": "^3.31.0",
+    "@tiptap/extension-placeholder": "^3.31.0",
+    "@tiptap/starter-kit": "^3.31.0",
+    "@tiptap/vue-3": "^3.31.0",
     "fuse.js": "^6.6.2",
     "oh-vue-icons": "^1.0.0-rc3",
     "uuid": "^8.3.2",
